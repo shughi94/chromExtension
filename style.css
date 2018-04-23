@@ -1,0 +1,17 @@
+body {
+  min-width: 300px;
+  text-align: center;
+}
+
+#mainB{
+  width: 100px;
+  height: 60px;
+  text-align:center;
+  font-size: 16px;
+  border-radius: 12px;
+}
+
+#mainB:hover {
+    background-color: #4CAF50;
+    color: white;
+}

@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+
+  "name": "A test extension",
+  "description": "This is a test because idk what to do in class",
+  "version": "1.0",
+
+  "browser_action": {
+   "default_icon": "my_icon.png",
+   "default_popup": "index.html"
+  },
+  "web_accessible_resources": ["mike.ttf"],
+  "content_scripts": [
+  {
+    "matches": [
+      "https://www.facebook.com/*"
+    ],
+    "js": ["myscript.js"]
+  }
+]
+}
